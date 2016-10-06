@@ -77,6 +77,10 @@ PRODUCT_PACKAGES += \
     webview \
     wifi-service
 
+PRODUCT_PACKAGES += \
+    libwebviewchromium_plat_support \
+    libwebviewchromium_loader
+
 ifneq ($(TARGET_SUPPORTS_WEARABLES),true)
 PRODUCT_PACKAGES += ethernet-service
 endif
